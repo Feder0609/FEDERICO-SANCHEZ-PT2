@@ -89,3 +89,14 @@ A eso se le llama VirtualHost.
 👉 www.domini.local
 
 Vamos paso a paso.
+
+## 1. Crear la carpeta donde irá tu web
+
+### Todas las webs que uses las vamos a guardar dentro de:
+/var/www/
+
+### Creamos una carpeta para nuestra web llamada domini.local:
+
+sudo mkdir -p /var/www/domini.local
+
+Piensa en esta carpeta como “la mochila” donde estarán tus archivos de la web.
