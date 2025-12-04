@@ -5,7 +5,17 @@
 
 # Instalación de LAMP stack en Ubuntu 24.04
 
-Para instalar una pila LAMP (Linux, Apache, MySQL, PHP) en Ubuntu 24.04, sigue estos pasos detallados.
+La palabra LAMP viene de:
+
+-Linux (el sistema operativo)
+
+-Apache (el programa que muestra páginas web)
+
+-MySQL (el programa que guarda datos)
+
+-PHP (el lenguaje que usan muchas webs)
+
+Vamos a instalar todo paso a paso.
 
 ## 1. Actualiza el sistema
 sudo apt update && sudo apt upgrade -y
