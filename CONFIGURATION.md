@@ -79,13 +79,13 @@ Apache servint pàgines web.
 MySQL preparat per emmagatzemar dades.
 PHP processant scripts.
 
+# Configuració de VirtualHost amb apache2
 Apache permite tener varias webs en el mismo ordenador.
+
 Cada una funciona como si fuera una web diferente, con su nombre propio.
 A eso se le llama VirtualHost.
 
-## Configuració de VirtualHost amb apache2
-
-Con esto podrás entrar a tu web escribiendo algo como:
+## Con esto podrás entrar a tu web escribiendo algo como:
 👉 www.domini.local
 
 Vamos paso a paso.
