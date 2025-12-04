@@ -1,80 +1,158 @@
-# 
-# Configuración del sistema de IsardVDI:
--El primer paso que hemos de realizar es poner nuestras credenciales en IsardVDI y luego elegir una maquina virtual, configurar-la e iniciar-la.
--Despues de entrar toca abrir la terminal y configurar la maquina para poder empezar la instalación.
+# 📂 Guía de demostración y administración de Nextcloud
 
-# Instalación de LAMP stack en Ubuntu 24.04
+Esta guía documenta cómo usar y administrar un servidor Nextcloud: subir archivos, crear usuarios, asignar permisos y acceder desde cualquier equipo de la red.
 
-La palabra LAMP viene de:
+## 1️⃣ Demostración del funcionamiento
+### 1.1 Subir archivos
 
--Linux (el sistema operativo)
+Accede a tu cuenta de Nextcloud.
 
--Apache (el programa que muestra páginas web)
+Haz clic en “Subir archivo” o arrastra un documento o imagen al navegador.
 
--MySQL (el programa que guarda datos)
+Verifica que el archivo aparece correctamente en la lista de archivos.
 
--PHP (el lenguaje que usan muchas webs)
+Captura sugerida:
 
-Vamos a instalar todo paso a paso.
+Pantalla mostrando un archivo subido (documento o imagen).
 
-## 1. Actualiza el sistema
-sudo apt update && sudo apt upgrade -y
+Resaltar que aparece en la lista de archivos.
 
-## 2. Instal·la Apache
-sudo apt install apache2 -y
+### 1.2 Crear carpetas
 
-### Activa e inicia el servicio:
-sudo systemctl enable apache2
-sudo systemctl start apache2
+Haz clic en “Nueva carpeta” dentro de tu espacio de usuario.
 
-### Verifica el estado:
-sudo systemctl status apache2
-Visita http://localhost per veure la pàgina per defecte d’Apache.
+Crea una estructura básica, por ejemplo:
 
-## 3. Instal·la MySQL
-Ubuntu 24.04 ja inclou el paquet mysql-server als repositoris oficials (versió 8.0 o superior):
-sudo apt install mysql-server mysql-client -y
+Documentos
 
-### Inicia i habilita el servei:
-sudo systemctl enable mysql
-sudo systemctl start mysql
+Imágenes
 
-### Configura de MySQL:
-Accés a la consola de MySQL
-sudo mysql
+Compartidos
 
-### Creació de la base de dades
-CREATE DATABASE bbdd;
+Captura sugerida:
 
-### Creació de l’usuari local
-CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-GRANT ALL PRIVILEGES ON bbdd.* TO 'usuario'@'localhost';
-FLUSH PRIVILEGES;
-EXIT;
+Árbol de carpetas mostrando la jerarquía creada.
 
-Nota: Aquest usuari només pot connectar-se des del servidor local (localhost), cosa que és suficient si l’aplicació web i la base de dades estan al mateix servidor.
+### 1.3 Compartir contenidos
 
-## 4. Instal·la PHP i extensions comunes
-Ubuntu 24.04 inclou PHP 8.3 als repositoris estàndard:
-sudo apt install php libapache2-mod-php php-mysql php-curl php-gd php-mbstring php-xml php-zip php-json php-cli -y
+Selecciona un archivo o carpeta y haz clic en “Compartir”.
 
-### Reinicia Apache per carregar PHP:
-sudo systemctl restart apache2
+Puedes generar un enlace público o compartir directamente con otro usuario de Nextcloud.
 
-### Verifica la versió de PHP:
-php -v
+Configura opciones como contraseña o fecha de caducidad si es necesario.
 
-### Crea un fitxer de prova:
-echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
-Visita http://localhost/info.php per veure la informació de PHP.
+Captura sugerida:
 
+Ventana de compartir mostrando las opciones de enlace o usuarios con permisos.
 
-## 🔒 Mesura de seguretat: Un cop hagis verificat que funciona, elimina el fitxer:
-sudo rm /var/www/html/info.php
+## 2️⃣ Creación de usuarios
+### 2.1 Crear tres usuarios
 
-#### Verificació final
+Accede a la interfaz de administración de Nextcloud.
 
-La pila LAMP ara hauria d’estar operativa amb:
-Apache servint pàgines web.
-MySQL preparat per emmagatzemar dades.
-PHP processant scripts.
+Crea tres usuarios:
+
+Administrador → control total.
+
+Editor → puede modificar archivos y carpetas.
+
+Visualizador → solo puede ver archivos.
+
+Captura sugerida:
+
+Pantalla de la administración de usuarios mostrando los tres usuarios creados con sus roles.
+
+### 2.2 Documentar el proceso
+
+Explica paso a paso:
+
+Entrar en Ajustes → Usuarios.
+
+Hacer clic en “Agregar usuario”.
+
+Asignar nombre, contraseña y rol.
+
+Captura sugerida:
+
+Formulario de creación de usuario antes de guardar.
+
+## 3️⃣ Asignación de roles y permisos
+### 3.1 Configurar permisos por rol
+
+Administra los permisos desde la interfaz de Nextcloud:
+
+Administrador: todo acceso.
+
+Editor: puede añadir, editar y borrar archivos.
+
+Visualizador: solo lectura.
+
+Captura sugerida:
+
+Tabla de usuarios mostrando los roles asignados.
+
+### 3.2 Demostrar efectos de los permisos
+
+Muestra que un visualizador no puede modificar un archivo.
+
+Muestra que un editor sí puede modificarlo.
+
+Captura sugerida:
+
+Comparativa de la misma carpeta abierta por un editor y un visualizador.
+
+## 4️⃣ Administración de archivos
+### 4.1 Organización de carpetas y archivos
+
+Crea una jerarquía lógica dentro del Nextcloud:
+
+Documentos Personales
+
+Trabajos Compartidos
+
+Recursos
+
+Captura sugerida:
+
+Árbol de carpetas mostrando la estructura.
+
+### 4.2 Políticas de seguridad
+
+Activa opciones importantes:
+
+Caducidad de enlaces compartidos.
+
+Contraseña obligatoria para enlaces públicos.
+
+Captura sugerida:
+
+Configuración de seguridad mostrando estas opciones activadas.
+
+## 5️⃣ Acceso desde otra máquina de la red
+### 5.1 Configuración de acceso remoto
+
+Explica cómo acceder desde otro equipo conectado a la misma red:
+
+Abre un navegador en otro dispositivo.
+
+Introduce la IP o dominio del servidor Nextcloud.
+
+Accede con tus credenciales.
+
+Captura sugerida:
+
+Pantalla de inicio de sesión desde otro ordenador.
+
+### 5.2 (Extra) Acceso a clouds de compañeros
+
+Explica cómo agregar cuentas externas de Nextcloud:
+
+En tu cuenta, ve a “Agregar almacenamiento externo”.
+
+Introduce las credenciales de tus compañeros.
+
+Navega por sus archivos desde tu interfaz.
+
+Captura sugerida:
+
+Ventana de almacenamiento externo mostrando los archivos de otro usuario.
