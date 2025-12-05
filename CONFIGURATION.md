@@ -39,7 +39,7 @@ Configura opciones como contraseña o fecha de caducidad si es necesario.
 <img width="1851" height="546" alt="image" src="https://github.com/user-attachments/assets/81f04a99-8203-41dc-b58f-8f83afbada3c" />
 
 ## 2️⃣ Creación de usuarios
-### 2.1 Crear tres usuarios
+### Crear tres usuarios
 
 Accede a la interfaz de administración de Nextcloud.
 <img width="1160" height="728" alt="image" src="https://github.com/user-attachments/assets/77de0751-d3e5-4294-8b25-b3e7413341fa" />
@@ -53,20 +53,6 @@ Editor → puede modificar archivos y carpetas.
 Visualizador → solo puede ver archivos.
 <img width="1855" height="530" alt="image" src="https://github.com/user-attachments/assets/5f357be6-c8c3-4b9e-a277-a4e485cfeecd" />
 
-### 2.2 Documentar el proceso
-
-Explica paso a paso:
-
-Entrar en Ajustes → Usuarios.
-
-Hacer clic en “Agregar usuario”.
-
-Asignar nombre, contraseña y rol.
-
-Captura sugerida:
-
-Formulario de creación de usuario antes de guardar.
-
 ## 3️⃣ Asignación de roles y permisos
 ### 3.1 Configurar permisos por rol
 
@@ -78,9 +64,8 @@ Editor: puede añadir, editar y borrar archivos.
 
 Visualizador: solo lectura.
 
-Captura sugerida:
+<img width="1846" height="420" alt="image" src="https://github.com/user-attachments/assets/cb1833ff-3d7e-48dd-aa2a-341ceee604a5" />
 
-Tabla de usuarios mostrando los roles asignados.
 
 ### 3.2 Demostrar efectos de los permisos
 
