@@ -13,6 +13,8 @@ Verifica que el archivo aparece correctamente en la lista de archivos.
 
 Captura sugerida:
 <img width="1512" height="492" alt="image" src="https://github.com/user-attachments/assets/efea2121-cb98-4185-bfbd-5f354a4fcc89" />
+<img width="815" height="353" alt="unnamed" src="https://github.com/user-attachments/assets/b3f1cf69-d12c-4e1a-88e5-47c78839a4cd" />
+<img width="663" height="194" alt="unnamed" src="https://github.com/user-attachments/assets/c9217707-a28e-483b-9695-a73fcf427c49" />
 
 
 Pantalla mostrando un archivo subido (documento o imagen).
