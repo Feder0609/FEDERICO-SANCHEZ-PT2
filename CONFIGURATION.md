@@ -12,6 +12,8 @@ Haz clic en “Subir archivo” o arrastra un documento o imagen al navegador.
 Verifica que el archivo aparece correctamente en la lista de archivos.
 
 Captura sugerida:
+<img width="1512" height="492" alt="image" src="https://github.com/user-attachments/assets/efea2121-cb98-4185-bfbd-5f354a4fcc89" />
+
 
 Pantalla mostrando un archivo subido (documento o imagen).
 
