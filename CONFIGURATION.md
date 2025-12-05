@@ -54,7 +54,7 @@ Visualizador → solo puede ver archivos.
 <img width="1855" height="530" alt="image" src="https://github.com/user-attachments/assets/5f357be6-c8c3-4b9e-a277-a4e485cfeecd" />
 
 ## 3️⃣ Asignación de roles y permisos
-### 3.1 Configurar permisos por rol
+### Configurar permisos por rol
 
 Administra los permisos desde la interfaz de Nextcloud:
 
@@ -66,43 +66,25 @@ Visualizador: solo lectura.
 
 <img width="1846" height="420" alt="image" src="https://github.com/user-attachments/assets/cb1833ff-3d7e-48dd-aa2a-341ceee604a5" />
 
+### Al entrar en la carpeta con una cuenta diferente la experiencia cambia gracias a los permisos.
+<img width="1853" height="761" alt="image" src="https://github.com/user-attachments/assets/159eca26-ec75-4cdc-8568-c1182ddd39f5" />
 
-### 3.2 Demostrar efectos de los permisos
-
-Muestra que un visualizador no puede modificar un archivo.
-
-Muestra que un editor sí puede modificarlo.
-
-Captura sugerida:
-
-Comparativa de la misma carpeta abierta por un editor y un visualizador.
 
 ## 4️⃣ Administración de archivos
 ### 4.1 Organización de carpetas y archivos
 
 Crea una jerarquía lógica dentro del Nextcloud:
 
-Documentos Personales
+-Documentos Personales
 
-Trabajos Compartidos
+-Carpeta
 
-Recursos
+-Recursos
 
-Captura sugerida:
+<img width="1851" height="543" alt="image" src="https://github.com/user-attachments/assets/5f59a520-1f9e-4c3b-abca-489eb4bbff2a" />
+<img width="1847" height="737" alt="image" src="https://github.com/user-attachments/assets/6d01f61a-b7f3-41f1-9295-0315cfdd44db" />
+<img width="1845" height="796" alt="image" src="https://github.com/user-attachments/assets/46456153-07b2-4cfb-9bc3-a7daab855fd7" />
 
-Árbol de carpetas mostrando la estructura.
-
-### 4.2 Políticas de seguridad
-
-Activa opciones importantes:
-
-Caducidad de enlaces compartidos.
-
-Contraseña obligatoria para enlaces públicos.
-
-Captura sugerida:
-
-Configuración de seguridad mostrando estas opciones activadas.
 
 ## 5️⃣ Acceso desde otra máquina de la red
 ### 5.1 Configuración de acceso remoto
@@ -120,15 +102,56 @@ Captura sugerida:
 Pantalla de inicio de sesión desde otro ordenador.
 
 ### 5.2 (Extra) Acceso a clouds de compañeros
+Nextcloud permite que cada usuario pueda montar el almacenamiento de otro usuario como si fuera una carpeta compartida, siempre que ambos lo permitan y tengan las credenciales necesarias. Esto se hace mediante la app External Storage Support (“Almacenamiento externo”).
 
-Explica cómo agregar cuentas externas de Nextcloud:
+🔧 1. Activar la app de Almacenamiento Externo (si aún no lo está)
 
-En tu cuenta, ve a “Agregar almacenamiento externo”.
+Esto lo debe hacer un administrador:
 
-Introduce las credenciales de tus compañeros.
+Entra con la cuenta de administrador en Nextcloud.
 
-Navega por sus archivos desde tu interfaz.
+Ve a Ajustes → Aplicaciones.
 
-Captura sugerida:
+Busca External Storage Support o Almacenamiento externo.
 
-Ventana de almacenamiento externo mostrando los archivos de otro usuario.
+Actívala.
+
+📁 2. Acceder a la configuración de Almacenamiento Externo como usuario
+
+Cada usuario puede añadir accesos externos:
+
+Inicia sesión en tu cuenta de Nextcloud.
+
+En la esquina superior derecha, entra en Ajustes.
+
+Busca la sección Almacenamiento externo o External storage.
+
+🔐 3. Agregar la cuenta de tu compañero
+
+Ahora podrás configurar el acceso al almacenamiento de otro usuario:
+
+Haz clic en “Agregar almacenamiento”.
+
+En la columna Tipo de almacenamiento, selecciona "Nextcloud".
+
+Rellena los campos:
+
+URL: la dirección del servidor (por ejemplo: http://IP-de-la-máquina/nextcloud).
+
+Usuario: nombre de usuario de tu compañero.
+
+Contraseña: la contraseña que él te haya dado.
+
+Nombre de la carpeta local: cómo quieres que aparezca en tu Nextcloud (ej.: “Carpeta de María”).
+
+Marca la casilla de estado (el punto verde indica que funciona correctamente).
+
+📂 4. Usar los archivos de tus compañeros
+
+Una vez configurado correctamente:
+
+Aparecerá una nueva carpeta en tu Vista de Archivos.
+
+Podrás navegar, leer o modificar (según permisos) todos los archivos del usuario remoto.
+
+Todo se comporta como una carpeta normal de Nextcloud, pero sincronizada con la cuenta de tu compañero.
