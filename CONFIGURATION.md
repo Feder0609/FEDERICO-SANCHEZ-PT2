@@ -16,6 +16,7 @@ Verifica que el archivo aparece correctamente en la lista de archivos.
 ### 1.2 Crear carpetas
 
 Haz clic en “Nueva carpeta” dentro de tu espacio de usuario.
+<img width="1177" height="755" alt="image" src="https://github.com/user-attachments/assets/45c3fb04-5220-409e-8be3-04c0292e6b6b" />
 
 Crea una estructura básica, por ejemplo:
 
@@ -25,9 +26,7 @@ Imágenes
 
 Compartidos
 
-Captura sugerida:
-
-Árbol de carpetas mostrando la jerarquía creada.
+<img width="1203" height="488" alt="image" src="https://github.com/user-attachments/assets/dbba5f21-7e05-4c9f-bcec-d85536d1e11e" />
 
 ### 1.3 Compartir contenidos
 
@@ -36,15 +35,13 @@ Selecciona un archivo o carpeta y haz clic en “Compartir”.
 Puedes generar un enlace público o compartir directamente con otro usuario de Nextcloud.
 
 Configura opciones como contraseña o fecha de caducidad si es necesario.
-
-Captura sugerida:
-
-Ventana de compartir mostrando las opciones de enlace o usuarios con permisos.
+<img width="1851" height="546" alt="image" src="https://github.com/user-attachments/assets/81f04a99-8203-41dc-b58f-8f83afbada3c" />
 
 ## 2️⃣ Creación de usuarios
 ### 2.1 Crear tres usuarios
 
 Accede a la interfaz de administración de Nextcloud.
+<img width="1160" height="728" alt="image" src="https://github.com/user-attachments/assets/77de0751-d3e5-4294-8b25-b3e7413341fa" />
 
 Crea tres usuarios:
 
@@ -53,10 +50,7 @@ Administrador → control total.
 Editor → puede modificar archivos y carpetas.
 
 Visualizador → solo puede ver archivos.
-
-Captura sugerida:
-
-Pantalla de la administración de usuarios mostrando los tres usuarios creados con sus roles.
+<img width="1855" height="530" alt="image" src="https://github.com/user-attachments/assets/5f357be6-c8c3-4b9e-a277-a4e485cfeecd" />
 
 ### 2.2 Documentar el proceso
 
