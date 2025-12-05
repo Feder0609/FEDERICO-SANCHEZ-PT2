@@ -87,21 +87,6 @@ Crea una jerarquía lógica dentro del Nextcloud:
 
 
 ## 5️⃣ Acceso desde otra máquina de la red
-### 5.1 Configuración de acceso remoto
-
-Explica cómo acceder desde otro equipo conectado a la misma red:
-
-Abre un navegador en otro dispositivo.
-
-Introduce la IP o dominio del servidor Nextcloud.
-
-Accede con tus credenciales.
-
-Captura sugerida:
-
-Pantalla de inicio de sesión desde otro ordenador.
-
-### 5.2 (Extra) Acceso a clouds de compañeros
 Nextcloud permite que cada usuario pueda montar el almacenamiento de otro usuario como si fuera una carpeta compartida, siempre que ambos lo permitan y tengan las credenciales necesarias. Esto se hace mediante la app External Storage Support (“Almacenamiento externo”).
 
 🔧 1. Activar la app de Almacenamiento Externo (si aún no lo está)
