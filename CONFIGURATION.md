@@ -9,7 +9,7 @@ Esta guía documenta cómo usar y administrar un servidor Nextcloud: subir archi
 
 ### Haz clic en “Subir archivo” o arrastra un documento o imagen al navegador.
 ![Text alternatiu](Captura desde 2025-12-05 21-52-17)
--<img width="815"<img width="663" height="194" alt="Captura desde 2025-12-05 21-52-17" src="https://github.com/user-attachments/assets/29dfab32-0abf-44ff-be9b-36be0fd1ee4c" />
+ 
  height="353" alt="unnamed" src="https://github.com/user-attachments/assets/b3f1cf69-d12c-4e1a-88e5-47c78839a4cd" />
 
 
