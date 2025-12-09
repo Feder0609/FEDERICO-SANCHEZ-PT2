@@ -65,7 +65,7 @@ Visualizador: solo lectura.
 ![Text alternatiu](permisosususarios.png)
 
 ### Al entrar en la carpeta con una cuenta diferente la experiencia cambia gracias a los permisos.
-![Text alternatiu](ususariospermisos2.png)
+![Text alternatiu](permisosususarios.png)
 
 ## 4️⃣ Administración de archivos
 ### 4.1 Organización de carpetas y archivos
