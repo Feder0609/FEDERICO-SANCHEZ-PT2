@@ -13,7 +13,7 @@ Esta guía documenta cómo usar y administrar un servidor Nextcloud: subir archi
 ![Text alternatiu](nwfile.png)
 
 ### Verifica que el archivo aparece correctamente en la lista de archivos.
-![Text alternatiu](nwfile.png)
+![Text alternatiu](523163090-efea2121-cb98-4185-bfbd-5f354a4fcc89.png)
 
 ### 1.2 Crear carpetas
 
