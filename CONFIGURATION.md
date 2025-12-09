@@ -78,10 +78,9 @@ Crea una jerarquía lógica dentro del Nextcloud:
 
 -Recursos
 
-<img width="1851" height="543" alt="image" src="https://github.com/user-attachments/assets/5f59a520-1f9e-4c3b-abca-489eb4bbff2a" />
-<img width="1847" height="737" alt="image" src="https://github.com/user-attachments/assets/6d01f61a-b7f3-41f1-9295-0315cfdd44db" />
-<img width="1845" height="796" alt="image" src="https://github.com/user-attachments/assets/46456153-07b2-4cfb-9bc3-a7daab855fd7" />
-
+![Text alternatiu](orden.png)
+![Text alternatiu](orden2.png)
+![Text alternatiu](ordenfinal.png)
 
 ## 5️⃣ Acceso desde otra máquina de la red
 Nextcloud permite que cada usuario pueda montar el almacenamiento de otro usuario como si fuera una carpeta compartida, siempre que ambos lo permitan y tengan las credenciales necesarias. Esto se hace mediante la app External Storage Support (“Almacenamiento externo”).
