@@ -27,8 +27,7 @@ Imágenes
 
 Compartidos
 
-<img width="1203" height="488" alt="image" src="https://github.com/user-attachments/assets/dbba5f21-7e05-4c9f-bcec-d85536d1e11e" />
-
+![Text alternatiu](carpeta2.png)
 ### 1.3 Compartir contenidos
 
 Selecciona un archivo o carpeta y haz clic en “Compartir”.
