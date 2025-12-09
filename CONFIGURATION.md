@@ -63,9 +63,9 @@ Editor: puede añadir, editar y borrar archivos.
 
 Visualizador: solo lectura.
 ![Text alternatiu](permisosususarios.png)
-permisos ususarios.png
+
 ### Al entrar en la carpeta con una cuenta diferente la experiencia cambia gracias a los permisos.
-![Text alternatiu](permisosususarios2.png)
+![Text alternatiu](ususariospermisos2.png)
 
 ## 4️⃣ Administración de archivos
 ### 4.1 Organización de carpetas y archivos
