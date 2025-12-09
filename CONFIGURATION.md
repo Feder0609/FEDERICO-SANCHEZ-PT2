@@ -62,9 +62,8 @@ Administrador: todo acceso.
 Editor: puede añadir, editar y borrar archivos.
 
 Visualizador: solo lectura.
-
-<img width="1846" height="420" alt="image" src="https://github.com/user-attachments/assets/cb1833ff-3d7e-48dd-aa2a-341ceee604a5" />
-
+![Text alternatiu](permisos ususarios.png)
+permisos ususarios.png
 ### Al entrar en la carpeta con una cuenta diferente la experiencia cambia gracias a los permisos.
 <img width="1853" height="761" alt="image" src="https://github.com/user-attachments/assets/159eca26-ec75-4cdc-8568-c1182ddd39f5" />
 
