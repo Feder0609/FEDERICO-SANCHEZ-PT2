@@ -18,8 +18,7 @@ Esta guía documenta cómo usar y administrar un servidor Nextcloud: subir archi
 ### 1.2 Crear carpetas
 
 Haz clic en “Nueva carpeta” dentro de tu espacio de usuario.
-<img width="1177" height="755" alt="image" src="https://github.com/user-attachments/assets/45c3fb04-5220-409e-8be3-04c0292e6b6b" />
-
+![Text alternatiu](carpeta.png)
 Crea una estructura básica, por ejemplo:
 
 Documentos
