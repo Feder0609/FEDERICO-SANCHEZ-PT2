@@ -35,7 +35,7 @@ Selecciona un archivo o carpeta y haz clic en “Compartir”.
 Puedes generar un enlace público o compartir directamente con otro usuario de Nextcloud.
 
 Configura opciones como contraseña o fecha de caducidad si es necesario.
-<img width="1851" height="546" alt="image" src="https://github.com/user-attachments/assets/81f04a99-8203-41dc-b58f-8f83afbada3c" />
+![Text alternatiu](compartir.png)
 
 ## 2️⃣ Creación de usuarios
 ### Crear tres usuarios
