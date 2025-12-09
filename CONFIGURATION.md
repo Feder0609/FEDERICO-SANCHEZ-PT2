@@ -50,8 +50,8 @@ Administrador → control total.
 Editor → puede modificar archivos y carpetas.
 
 Visualizador → solo puede ver archivos.
-<img width="1855" height="530" alt="image" src="https://github.com/user-attachments/assets/5f357be6-c8c3-4b9e-a277-a4e485cfeecd" />
-
+![Text alternatiu](523185633-5f357be6-c8c3-4b9e-a277-a4e485cfeecd.png
+)
 ## 3️⃣ Asignación de roles y permisos
 ### Configurar permisos por rol
 
